@@ -1,0 +1,2472 @@
+[
+  {
+    "teacher": [
+      {
+        "id": "08e4d941-2999-4b6a-a470-d7399f2c00e4",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T11:37:55.557Z",
+        "updated_at": "2023-07-31T18:54:03.430Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "9c988a09-bb76-4601-b9f5-838b693a6eeb",
+        "name": "Mrs. Anderson",
+        "subject": "English",
+        "created_at": "2023-08-01T03:49:57.746Z",
+        "updated_at": "2023-07-31T13:58:23.352Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0d6d3267-80f1-4c58-afcf-cb3d15e110d1",
+        "name": "Ms. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T15:31:49.334Z",
+        "updated_at": "2023-08-01T06:21:52.348Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "882c6a8b-1d42-4716-b7c1-cf6d686c05e8",
+        "name": "Dr. Martinez",
+        "subject": "History",
+        "created_at": "2023-07-31T15:34:27.903Z",
+        "updated_at": "2023-07-31T20:25:42.133Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "6f243196-2d77-4226-b221-0badb1067688",
+        "name": "Mr. Davis",
+        "subject": "Art",
+        "created_at": "2023-08-01T05:27:45.309Z",
+        "updated_at": "2023-07-31T19:21:08.321Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "71354599-a11f-47f7-8180-3f200775b1ff",
+        "name": "Emily",
+        "attendance": 98349,
+        "academic_record": 17745,
+        "behavior_record": 7940,
+        "health_record": 43216,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "Parent: John Doe, Contact: 123-456-7890",
+        "created_at": "2023-08-01T07:51:59.802Z",
+        "updated_at": "2023-08-01T12:34:56.134Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "bdd2cb04-0e52-4faf-8639-a2dfcb1aecb6",
+        "name": "Daniel",
+        "attendance": 65168,
+        "academic_record": 71096,
+        "behavior_record": 3243,
+        "health_record": 13052,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Parent: Jane Smith, Contact: 987-654-3210",
+        "created_at": "2023-08-01T10:32:35.115Z",
+        "updated_at": "2023-07-31T18:00:22.217Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "5317580c-073d-4290-b4a4-b8cf788d9cbc",
+        "name": "Olivia",
+        "attendance": 47194,
+        "academic_record": 37060,
+        "behavior_record": 93258,
+        "health_record": 3096,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "Parent: Michael Brown, Contact: 555-123-4567",
+        "created_at": "2023-08-01T10:28:24.706Z",
+        "updated_at": "2023-07-31T23:34:05.596Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "e339bc9d-42d4-4df6-b475-e977f8d5e025",
+        "name": "Jacob",
+        "attendance": 6305,
+        "academic_record": 80143,
+        "behavior_record": 71280,
+        "health_record": 11011,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Parent: Sarah Jones, Contact: 888-999-0000",
+        "created_at": "2023-08-01T12:31:01.069Z",
+        "updated_at": "2023-08-01T06:56:55.346Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "c12f27d4-2786-44cd-b03a-daf3061e0ee7",
+        "name": "Sophia",
+        "attendance": 21200,
+        "academic_record": 93053,
+        "behavior_record": 48550,
+        "health_record": 64884,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Parent: David Wilson, Contact: 111-222-3333",
+        "created_at": "2023-07-31T15:39:28.166Z",
+        "updated_at": "2023-08-01T06:53:47.313Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "8622cdeb-d14f-4fc5-bd8b-88e6e3f94cab",
+        "subject": "Mathematics",
+        "time": "2023-07-31T23:30:17.967Z",
+        "created_at": "2023-08-01T11:27:36.686Z",
+        "updated_at": "2023-07-31T17:59:08.971Z",
+        "student_id": "bdd2cb04-0e52-4faf-8639-a2dfcb1aecb6",
+        "teacher_id": "882c6a8b-1d42-4716-b7c1-cf6d686c05e8"
+      },
+      {
+        "id": "87a9204d-10f1-4dc9-a825-2ef85cd0b2db",
+        "subject": "English",
+        "time": "2023-08-01T12:19:22.295Z",
+        "created_at": "2023-08-01T00:06:57.891Z",
+        "updated_at": "2023-07-31T18:05:45.350Z",
+        "student_id": "e339bc9d-42d4-4df6-b475-e977f8d5e025",
+        "teacher_id": "08e4d941-2999-4b6a-a470-d7399f2c00e4"
+      },
+      {
+        "id": "085f6f1a-11fc-4272-9363-fab5935fe31e",
+        "subject": "Science",
+        "time": "2023-08-01T11:10:59.896Z",
+        "created_at": "2023-08-01T05:45:40.586Z",
+        "updated_at": "2023-08-01T13:04:58.463Z",
+        "student_id": "5317580c-073d-4290-b4a4-b8cf788d9cbc",
+        "teacher_id": "882c6a8b-1d42-4716-b7c1-cf6d686c05e8"
+      },
+      {
+        "id": "85924d32-5a96-405d-a615-f751e33557f3",
+        "subject": "History",
+        "time": "2023-08-01T01:38:49.436Z",
+        "created_at": "2023-08-01T06:09:25.678Z",
+        "updated_at": "2023-07-31T20:34:47.745Z",
+        "student_id": "c12f27d4-2786-44cd-b03a-daf3061e0ee7",
+        "teacher_id": "08e4d941-2999-4b6a-a470-d7399f2c00e4"
+      },
+      {
+        "id": "039015db-e4a1-4099-a244-e996b73ee800",
+        "subject": "Art",
+        "time": "2023-08-01T04:26:10.275Z",
+        "created_at": "2023-07-31T16:02:00.215Z",
+        "updated_at": "2023-08-01T12:59:39.096Z",
+        "student_id": "bdd2cb04-0e52-4faf-8639-a2dfcb1aecb6",
+        "teacher_id": "6f243196-2d77-4226-b221-0badb1067688"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "7473a3ec-a96c-4cd2-a9cf-e46c2e9283b2",
+        "name": "Alex",
+        "created_at": "2023-08-01T08:58:08.557Z",
+        "updated_at": "2023-07-31T14:10:45.144Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ffc51b9f-2f3d-4960-b1c8-8ec249a08f88",
+        "name": "Sophie",
+        "created_at": "2023-08-01T01:27:23.780Z",
+        "updated_at": "2023-08-01T03:55:40.211Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a3216cb9-4b33-4b96-8626-fabadfc10711",
+        "name": "Ryan",
+        "created_at": "2023-07-31T20:27:43.177Z",
+        "updated_at": "2023-07-31T16:07:56.902Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "2ffdfa5a-f5b0-4c4f-9746-8de3d352ed47",
+        "name": "Emma",
+        "created_at": "2023-08-01T10:48:08.371Z",
+        "updated_at": "2023-07-31T14:52:10.880Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ff1967e8-1402-4250-985d-df04e3032364",
+        "name": "Max",
+        "created_at": "2023-08-01T10:40:45.554Z",
+        "updated_at": "2023-08-01T01:55:11.145Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "1f8e2a9e-f410-4327-a49a-ec381b7d8f87",
+        "subject": "Mathematics",
+        "date": "2023-08-01T04:51:06.529Z",
+        "created_at": "2023-07-31T15:05:55.828Z",
+        "updated_at": "2023-07-31T20:10:03.861Z",
+        "student_id": "c12f27d4-2786-44cd-b03a-daf3061e0ee7"
+      },
+      {
+        "id": "f9f93661-4ffb-48b1-8af8-aab2c0a4d857",
+        "subject": "English",
+        "date": "2023-07-31T23:44:44.590Z",
+        "created_at": "2023-07-31T22:36:13.875Z",
+        "updated_at": "2023-08-01T02:46:03.178Z",
+        "student_id": "bdd2cb04-0e52-4faf-8639-a2dfcb1aecb6"
+      },
+      {
+        "id": "51a89d44-918b-4346-974d-9e9926eb6313",
+        "subject": "Science",
+        "date": "2023-08-01T00:20:05.091Z",
+        "created_at": "2023-07-31T22:53:37.965Z",
+        "updated_at": "2023-08-01T13:15:09.544Z",
+        "student_id": "5317580c-073d-4290-b4a4-b8cf788d9cbc"
+      },
+      {
+        "id": "0886f53c-df13-48a4-b3a3-7e9f8385653d",
+        "subject": "History",
+        "date": "2023-07-31T22:38:56.698Z",
+        "created_at": "2023-08-01T12:52:23.742Z",
+        "updated_at": "2023-07-31T21:52:42.462Z",
+        "student_id": "c12f27d4-2786-44cd-b03a-daf3061e0ee7"
+      },
+      {
+        "id": "c015d619-1bce-40d7-b536-66b0778b3e91",
+        "subject": "Art",
+        "date": "2023-07-31T14:15:45.028Z",
+        "created_at": "2023-08-01T04:35:55.280Z",
+        "updated_at": "2023-07-31T23:30:10.353Z",
+        "student_id": "bdd2cb04-0e52-4faf-8639-a2dfcb1aecb6"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "165499c2-ca3d-4c09-8938-c7bd74b9aae8",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-07-31T18:21:45.843Z",
+        "updated_at": "2023-08-01T11:10:44.777Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1afffb86-e5e4-4bac-a147-d93d553ea410",
+        "name": "Mrs. Anderson",
+        "subject": "English",
+        "created_at": "2023-07-31T18:40:17.994Z",
+        "updated_at": "2023-08-01T13:38:26.267Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "9fe92d6b-b823-47b6-90ff-81aa8cb487db",
+        "name": "Ms. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T18:06:34.953Z",
+        "updated_at": "2023-07-31T19:12:58.860Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1db73645-022d-4481-8630-10a011620696",
+        "name": "Dr. Martinez",
+        "subject": "History",
+        "created_at": "2023-08-01T10:23:04.213Z",
+        "updated_at": "2023-07-31T13:56:18.508Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "dcacaec1-1236-43dd-a5bf-cab1c25ab1ba",
+        "name": "Mr. Davis",
+        "subject": "Art",
+        "created_at": "2023-08-01T06:08:40.266Z",
+        "updated_at": "2023-07-31T22:58:02.961Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "2167fa83-fd36-43b5-9c07-b5fcf72d324d",
+        "name": "Emily",
+        "attendance": 92101,
+        "academic_record": 50474,
+        "behavior_record": 23906,
+        "health_record": 78748,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Parent: John Doe, Contact: 123-456-7890",
+        "created_at": "2023-08-01T13:17:22.470Z",
+        "updated_at": "2023-08-01T04:53:47.038Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ed033302-778f-4b70-b6e4-f942fe785185",
+        "name": "Daniel",
+        "attendance": 46221,
+        "academic_record": 29535,
+        "behavior_record": 97099,
+        "health_record": 90482,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "Parent: Jane Smith, Contact: 987-654-3210",
+        "created_at": "2023-07-31T17:01:45.631Z",
+        "updated_at": "2023-07-31T15:11:54.816Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "034e0aa3-6e45-4805-a28e-25f5443aa069",
+        "name": "Olivia",
+        "attendance": 57187,
+        "academic_record": 33564,
+        "behavior_record": 17491,
+        "health_record": 13768,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "Parent: Michael Brown, Contact: 555-123-4567",
+        "created_at": "2023-08-01T02:20:15.270Z",
+        "updated_at": "2023-07-31T19:09:15.817Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "167ad260-eca7-4b10-80ee-26676fc3f2e6",
+        "name": "Jacob",
+        "attendance": 39401,
+        "academic_record": 98123,
+        "behavior_record": 93074,
+        "health_record": 1792,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Parent: Sarah Jones, Contact: 888-999-0000",
+        "created_at": "2023-08-01T05:53:40.272Z",
+        "updated_at": "2023-08-01T08:55:17.887Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "fe71a3ea-3ade-4eb2-bf80-d18e4614d228",
+        "name": "Sophia",
+        "attendance": 59873,
+        "academic_record": 96410,
+        "behavior_record": 77029,
+        "health_record": 26165,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "Parent: David Wilson, Contact: 111-222-3333",
+        "created_at": "2023-08-01T04:04:49.389Z",
+        "updated_at": "2023-07-31T20:04:46.579Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "d3e48ae7-d227-41b1-83d0-b7da9f666391",
+        "subject": "Mathematics",
+        "time": "2023-08-01T03:08:38.561Z",
+        "created_at": "2023-08-01T05:30:04.605Z",
+        "updated_at": "2023-08-01T11:54:06.075Z",
+        "student_id": "034e0aa3-6e45-4805-a28e-25f5443aa069",
+        "teacher_id": "165499c2-ca3d-4c09-8938-c7bd74b9aae8"
+      },
+      {
+        "id": "0c6ccfd9-7466-4f85-b856-b2c21e2bb286",
+        "subject": "English",
+        "time": "2023-08-01T06:16:46.575Z",
+        "created_at": "2023-08-01T10:29:33.078Z",
+        "updated_at": "2023-07-31T18:28:59.560Z",
+        "student_id": "167ad260-eca7-4b10-80ee-26676fc3f2e6",
+        "teacher_id": "dcacaec1-1236-43dd-a5bf-cab1c25ab1ba"
+      },
+      {
+        "id": "949e5468-9de5-4dc6-afa5-b93cd05aaf48",
+        "subject": "Science",
+        "time": "2023-08-01T00:00:46.763Z",
+        "created_at": "2023-08-01T02:51:46.325Z",
+        "updated_at": "2023-08-01T09:54:09.775Z",
+        "student_id": "2167fa83-fd36-43b5-9c07-b5fcf72d324d",
+        "teacher_id": "1db73645-022d-4481-8630-10a011620696"
+      },
+      {
+        "id": "2dc6e570-130b-4644-bf99-77915e34bb10",
+        "subject": "History",
+        "time": "2023-08-01T01:36:45.445Z",
+        "created_at": "2023-07-31T23:14:39.541Z",
+        "updated_at": "2023-08-01T04:14:33.672Z",
+        "student_id": "2167fa83-fd36-43b5-9c07-b5fcf72d324d",
+        "teacher_id": "1afffb86-e5e4-4bac-a147-d93d553ea410"
+      },
+      {
+        "id": "bb70283b-9f06-413d-9cf6-fb34b9e0005a",
+        "subject": "Art",
+        "time": "2023-07-31T15:31:07.730Z",
+        "created_at": "2023-07-31T20:39:21.441Z",
+        "updated_at": "2023-07-31T21:51:37.211Z",
+        "student_id": "034e0aa3-6e45-4805-a28e-25f5443aa069",
+        "teacher_id": "dcacaec1-1236-43dd-a5bf-cab1c25ab1ba"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "8ef2cd08-b2b6-44e6-8db0-3f5cada6ffed",
+        "name": "Alex",
+        "created_at": "2023-08-01T03:25:58.100Z",
+        "updated_at": "2023-07-31T16:39:28.069Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "d09340f2-028c-4393-b526-2434f6b83810",
+        "name": "Sophie",
+        "created_at": "2023-07-31T14:03:15.966Z",
+        "updated_at": "2023-08-01T13:16:26.872Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "2ec63293-2a67-4d4e-8b9f-1f5c55b79a75",
+        "name": "Ryan",
+        "created_at": "2023-08-01T07:12:37.636Z",
+        "updated_at": "2023-08-01T02:13:54.936Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "01b331ef-ca39-462c-9531-839c5d800654",
+        "name": "Emma",
+        "created_at": "2023-08-01T01:06:51.823Z",
+        "updated_at": "2023-07-31T17:54:59.520Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "58c00321-d49c-4406-89c3-c5f477af74c5",
+        "name": "Max",
+        "created_at": "2023-07-31T21:10:40.963Z",
+        "updated_at": "2023-08-01T06:31:49.984Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "ef10ac9c-8a96-4c3d-89af-929763a677eb",
+        "subject": "Mathematics",
+        "date": "2023-08-01T12:29:30.020Z",
+        "created_at": "2023-07-31T23:28:11.459Z",
+        "updated_at": "2023-07-31T16:37:13.310Z",
+        "student_id": "2167fa83-fd36-43b5-9c07-b5fcf72d324d"
+      },
+      {
+        "id": "512b25c2-8f19-43ec-9dbd-b0fbaf3c4425",
+        "subject": "English",
+        "date": "2023-08-01T12:10:38.610Z",
+        "created_at": "2023-08-01T01:45:27.977Z",
+        "updated_at": "2023-08-01T03:37:42.964Z",
+        "student_id": "2167fa83-fd36-43b5-9c07-b5fcf72d324d"
+      },
+      {
+        "id": "55f6b017-d1ce-481e-a73b-332dfcdc4787",
+        "subject": "Science",
+        "date": "2023-07-31T17:43:39.049Z",
+        "created_at": "2023-08-01T03:28:52.483Z",
+        "updated_at": "2023-07-31T16:15:38.076Z",
+        "student_id": "167ad260-eca7-4b10-80ee-26676fc3f2e6"
+      },
+      {
+        "id": "d47ce8d1-c392-465e-b343-5433d35d6352",
+        "subject": "History",
+        "date": "2023-07-31T20:51:33.936Z",
+        "created_at": "2023-07-31T16:54:38.357Z",
+        "updated_at": "2023-08-01T13:37:47.998Z",
+        "student_id": "167ad260-eca7-4b10-80ee-26676fc3f2e6"
+      },
+      {
+        "id": "0a2a9863-c060-4ae3-b073-65b56acca831",
+        "subject": "Art",
+        "date": "2023-08-01T06:26:00.083Z",
+        "created_at": "2023-07-31T19:38:02.422Z",
+        "updated_at": "2023-07-31T22:46:38.471Z",
+        "student_id": "fe71a3ea-3ade-4eb2-bf80-d18e4614d228"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "cafc38b2-34d2-4b84-acd8-c52dcae69bc7",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T02:45:33.738Z",
+        "updated_at": "2023-07-31T20:08:58.716Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "9009e6cb-6467-48d6-8035-39c522ca1cba",
+        "name": "Ms. Anderson",
+        "subject": "English Literature",
+        "created_at": "2023-07-31T15:34:28.484Z",
+        "updated_at": "2023-08-01T12:17:35.009Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ca5f17ee-20d2-4252-8dc7-754333636b85",
+        "name": "Dr. Thompson",
+        "subject": "Science",
+        "created_at": "2023-08-01T04:59:02.460Z",
+        "updated_at": "2023-07-31T16:39:53.270Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "71da9e31-f1e2-42ef-a1b1-f8929d8f536b",
+        "name": "Mrs. Davis",
+        "subject": "History",
+        "created_at": "2023-07-31T14:44:05.764Z",
+        "updated_at": "2023-08-01T01:34:38.582Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "efba6052-3d26-4457-832d-5a89bfdad1a3",
+        "name": "Mr. Wilson",
+        "subject": "Computer Science",
+        "created_at": "2023-08-01T09:52:24.646Z",
+        "updated_at": "2023-08-01T11:16:08.726Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "c9ab416e-f894-4741-a53e-91855bda1d1e",
+        "name": "Emily Johnson",
+        "attendance": 82945,
+        "academic_record": 70909,
+        "behavior_record": 86325,
+        "health_record": 88399,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "John Johnson (Father)",
+        "created_at": "2023-08-01T01:29:23.384Z",
+        "updated_at": "2023-07-31T19:53:18.358Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "2f232a7b-56c2-4583-adb5-4dbb77aca103",
+        "name": "Daniel Smith",
+        "attendance": 60999,
+        "academic_record": 54487,
+        "behavior_record": 44783,
+        "health_record": 4669,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Sarah Smith (Mother)",
+        "created_at": "2023-08-01T01:06:01.654Z",
+        "updated_at": "2023-07-31T18:40:53.170Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "026b693e-cdfd-47f4-a032-71f520271909",
+        "name": "Olivia Thompson",
+        "attendance": 90312,
+        "academic_record": 29974,
+        "behavior_record": 29426,
+        "health_record": 1513,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "Michael Thompson (Father)",
+        "created_at": "2023-07-31T20:07:31.259Z",
+        "updated_at": "2023-08-01T11:54:58.624Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "52d22a8c-1101-486a-a0ef-922d9ddc5744",
+        "name": "Sophia Davis",
+        "attendance": 98262,
+        "academic_record": 23618,
+        "behavior_record": 42273,
+        "health_record": 88739,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Jessica Davis (Mother)",
+        "created_at": "2023-08-01T10:12:38.257Z",
+        "updated_at": "2023-07-31T14:35:43.506Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "2f2d3756-d650-4dad-a87e-b4cdd511d3f9",
+        "name": "Jacob Wilson",
+        "attendance": 54634,
+        "academic_record": 24220,
+        "behavior_record": 68103,
+        "health_record": 50024,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "David Wilson (Father)",
+        "created_at": "2023-08-01T05:07:08.973Z",
+        "updated_at": "2023-08-01T11:20:01.461Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "d533b64d-40ab-4260-916b-2a167cdd04f0",
+        "subject": "Mathematics",
+        "time": "2023-07-31T16:02:19.073Z",
+        "created_at": "2023-07-31T23:10:14.574Z",
+        "updated_at": "2023-07-31T21:21:05.119Z",
+        "student_id": "52d22a8c-1101-486a-a0ef-922d9ddc5744",
+        "teacher_id": "cafc38b2-34d2-4b84-acd8-c52dcae69bc7"
+      },
+      {
+        "id": "e4699680-f6c7-4309-9346-ddf85207b319",
+        "subject": "English",
+        "time": "2023-08-01T07:30:12.192Z",
+        "created_at": "2023-07-31T16:23:12.511Z",
+        "updated_at": "2023-08-01T10:16:46.553Z",
+        "student_id": "c9ab416e-f894-4741-a53e-91855bda1d1e",
+        "teacher_id": "efba6052-3d26-4457-832d-5a89bfdad1a3"
+      },
+      {
+        "id": "7e332c51-079d-4564-a533-ee89ddb848a8",
+        "subject": "Science",
+        "time": "2023-08-01T08:22:41.089Z",
+        "created_at": "2023-07-31T22:59:31.566Z",
+        "updated_at": "2023-08-01T05:24:33.674Z",
+        "student_id": "2f232a7b-56c2-4583-adb5-4dbb77aca103",
+        "teacher_id": "cafc38b2-34d2-4b84-acd8-c52dcae69bc7"
+      },
+      {
+        "id": "b2eb4d87-09b3-495e-a911-6a8b09b8835e",
+        "subject": "History",
+        "time": "2023-07-31T15:48:03.766Z",
+        "created_at": "2023-07-31T23:03:23.641Z",
+        "updated_at": "2023-08-01T01:50:51.012Z",
+        "student_id": "c9ab416e-f894-4741-a53e-91855bda1d1e",
+        "teacher_id": "9009e6cb-6467-48d6-8035-39c522ca1cba"
+      },
+      {
+        "id": "2360c2b6-da5b-4d76-b277-71a86e3bece1",
+        "subject": "Computer Science",
+        "time": "2023-07-31T14:01:08.014Z",
+        "created_at": "2023-07-31T22:58:18.093Z",
+        "updated_at": "2023-07-31T14:36:20.865Z",
+        "student_id": "c9ab416e-f894-4741-a53e-91855bda1d1e",
+        "teacher_id": "cafc38b2-34d2-4b84-acd8-c52dcae69bc7"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "47125331-c745-4830-b756-5562925a37f3",
+        "name": "Alex Johnson",
+        "created_at": "2023-08-01T07:28:57.846Z",
+        "updated_at": "2023-07-31T20:01:18.744Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "8e989d92-9669-4ad5-8923-560260013242",
+        "name": "Emma Smith",
+        "created_at": "2023-07-31T22:34:25.394Z",
+        "updated_at": "2023-08-01T05:19:33.137Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "82723066-8b8a-431c-a1da-69ce8d277c18",
+        "name": "Oliver Thompson",
+        "created_at": "2023-08-01T00:01:46.686Z",
+        "updated_at": "2023-08-01T08:08:01.830Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a72a27c0-2759-43af-a5a3-3720beba0b0c",
+        "name": "Sophie Davis",
+        "created_at": "2023-07-31T17:53:24.339Z",
+        "updated_at": "2023-08-01T12:07:02.804Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "cfff8ea1-f708-416e-8740-bcda35942170",
+        "name": "Ryan Wilson",
+        "created_at": "2023-08-01T10:45:51.077Z",
+        "updated_at": "2023-08-01T01:38:30.324Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "a3bd56cc-4336-4f54-a455-3aabd8629f1e",
+        "subject": "Mathematics",
+        "date": "2023-08-01T05:40:33.237Z",
+        "created_at": "2023-07-31T18:54:04.771Z",
+        "updated_at": "2023-07-31T14:03:19.009Z",
+        "student_id": "026b693e-cdfd-47f4-a032-71f520271909"
+      },
+      {
+        "id": "6c7bc0c9-d6c0-4d3f-b8dc-e2434649d911",
+        "subject": "English Literature",
+        "date": "2023-08-01T03:55:56.314Z",
+        "created_at": "2023-07-31T15:29:50.116Z",
+        "updated_at": "2023-08-01T08:30:01.102Z",
+        "student_id": "52d22a8c-1101-486a-a0ef-922d9ddc5744"
+      },
+      {
+        "id": "9a88d26b-193c-430b-979f-34f7a586ff92",
+        "subject": "Science",
+        "date": "2023-07-31T18:16:02.439Z",
+        "created_at": "2023-08-01T04:39:27.457Z",
+        "updated_at": "2023-07-31T18:14:49.836Z",
+        "student_id": "026b693e-cdfd-47f4-a032-71f520271909"
+      },
+      {
+        "id": "b2b1858d-0065-4362-b4dc-56e30a4404ca",
+        "subject": "History",
+        "date": "2023-08-01T00:40:59.580Z",
+        "created_at": "2023-08-01T01:05:47.606Z",
+        "updated_at": "2023-07-31T14:34:10.313Z",
+        "student_id": "2f2d3756-d650-4dad-a87e-b4cdd511d3f9"
+      },
+      {
+        "id": "d7f05fe1-e414-4c31-baf3-f7d9f588769c",
+        "subject": "Computer Science",
+        "date": "2023-07-31T19:56:19.279Z",
+        "created_at": "2023-07-31T19:05:36.549Z",
+        "updated_at": "2023-07-31T20:48:38.134Z",
+        "student_id": "c9ab416e-f894-4741-a53e-91855bda1d1e"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "1aeec4b4-2ed2-4610-8e06-adc5f1e28a94",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T10:29:35.632Z",
+        "updated_at": "2023-07-31T17:48:24.073Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ae655146-e6cc-4325-a76e-781759f9569a",
+        "name": "Ms. Anderson",
+        "subject": "English Literature",
+        "created_at": "2023-08-01T11:36:55.492Z",
+        "updated_at": "2023-07-31T15:00:32.728Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f8504490-8cab-4df3-9a3e-e9117c032472",
+        "name": "Dr. Thompson",
+        "subject": "Science",
+        "created_at": "2023-08-01T10:13:22.873Z",
+        "updated_at": "2023-07-31T20:17:34.190Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "c051dea1-1e76-4a0f-8ae7-438850996833",
+        "name": "Mrs. Davis",
+        "subject": "History",
+        "created_at": "2023-08-01T08:08:24.589Z",
+        "updated_at": "2023-08-01T10:40:28.794Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "4b8a1a52-64e4-4496-a602-2bbdcfd47141",
+        "name": "Mr. Wilson",
+        "subject": "Computer Science",
+        "created_at": "2023-07-31T23:48:02.168Z",
+        "updated_at": "2023-07-31T22:01:48.724Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "14e3aa59-e580-49c4-b4c3-90369b540713",
+        "name": "Emily Johnson",
+        "attendance": 98840,
+        "academic_record": 59563,
+        "behavior_record": 72908,
+        "health_record": 65131,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "John Johnson (Father)",
+        "created_at": "2023-08-01T05:05:05.087Z",
+        "updated_at": "2023-08-01T09:25:08.858Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "fd0cb15e-01f5-46d9-bcd0-024eda9b7fd9",
+        "name": "Daniel Smith",
+        "attendance": 25724,
+        "academic_record": 66631,
+        "behavior_record": 28834,
+        "health_record": 52083,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Sarah Smith (Mother)",
+        "created_at": "2023-08-01T11:57:28.549Z",
+        "updated_at": "2023-08-01T05:07:42.970Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1aa96fa1-22c0-47f3-8d1c-063aa700eeec",
+        "name": "Olivia Thompson",
+        "attendance": 11629,
+        "academic_record": 43925,
+        "behavior_record": 72317,
+        "health_record": 18847,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "Michael Thompson (Father)",
+        "created_at": "2023-07-31T21:54:28.796Z",
+        "updated_at": "2023-08-01T00:23:38.321Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "d2b6ae64-853e-4305-af35-f97d40d68350",
+        "name": "Sophia Davis",
+        "attendance": 65762,
+        "academic_record": 80932,
+        "behavior_record": 80043,
+        "health_record": 90139,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "Jessica Davis (Mother)",
+        "created_at": "2023-07-31T13:51:27.868Z",
+        "updated_at": "2023-07-31T14:42:07.981Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "10ee73e7-f642-4868-8b9a-334a7dc67a6f",
+        "name": "Jacob Wilson",
+        "attendance": 45541,
+        "academic_record": 83291,
+        "behavior_record": 2239,
+        "health_record": 6113,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "David Wilson (Father)",
+        "created_at": "2023-08-01T12:39:05.625Z",
+        "updated_at": "2023-08-01T03:17:37.515Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "d9d5a255-c913-4aea-af90-2f9ab65fbd05",
+        "subject": "Mathematics",
+        "time": "2023-08-01T09:03:08.871Z",
+        "created_at": "2023-07-31T17:34:09.718Z",
+        "updated_at": "2023-07-31T14:16:50.760Z",
+        "student_id": "fd0cb15e-01f5-46d9-bcd0-024eda9b7fd9",
+        "teacher_id": "1aeec4b4-2ed2-4610-8e06-adc5f1e28a94"
+      },
+      {
+        "id": "8ed87e1b-25fd-4c2c-ae53-94059c06745e",
+        "subject": "English",
+        "time": "2023-08-01T06:55:04.712Z",
+        "created_at": "2023-08-01T08:24:38.473Z",
+        "updated_at": "2023-08-01T04:34:50.064Z",
+        "student_id": "1aa96fa1-22c0-47f3-8d1c-063aa700eeec",
+        "teacher_id": "ae655146-e6cc-4325-a76e-781759f9569a"
+      },
+      {
+        "id": "c1b5e64b-54eb-4a5d-8bba-4ef2ec2c7606",
+        "subject": "Science",
+        "time": "2023-07-31T15:03:59.035Z",
+        "created_at": "2023-07-31T17:14:57.009Z",
+        "updated_at": "2023-07-31T22:37:22.995Z",
+        "student_id": "1aa96fa1-22c0-47f3-8d1c-063aa700eeec",
+        "teacher_id": "c051dea1-1e76-4a0f-8ae7-438850996833"
+      },
+      {
+        "id": "9917e71b-7bd8-42eb-85e9-18f2d7b4b8df",
+        "subject": "History",
+        "time": "2023-08-01T09:01:14.250Z",
+        "created_at": "2023-08-01T03:13:28.921Z",
+        "updated_at": "2023-08-01T13:11:58.763Z",
+        "student_id": "10ee73e7-f642-4868-8b9a-334a7dc67a6f",
+        "teacher_id": "f8504490-8cab-4df3-9a3e-e9117c032472"
+      },
+      {
+        "id": "dd41f731-cd4a-40e3-ab13-a5641dac643c",
+        "subject": "Computer Science",
+        "time": "2023-07-31T19:35:08.444Z",
+        "created_at": "2023-08-01T10:59:10.604Z",
+        "updated_at": "2023-07-31T18:43:10.442Z",
+        "student_id": "fd0cb15e-01f5-46d9-bcd0-024eda9b7fd9",
+        "teacher_id": "f8504490-8cab-4df3-9a3e-e9117c032472"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "3839a523-d4ff-4e71-bfc3-657dc4426c7e",
+        "name": "Alex Johnson",
+        "created_at": "2023-07-31T18:01:08.834Z",
+        "updated_at": "2023-08-01T04:20:08.197Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "abd5431a-2434-42ec-a007-f0bef458e9d7",
+        "name": "Emma Smith",
+        "created_at": "2023-07-31T23:08:46.674Z",
+        "updated_at": "2023-08-01T01:31:37.595Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "4287568d-12f9-41c0-a03f-b44a31d7335b",
+        "name": "Ryan Thompson",
+        "created_at": "2023-07-31T15:11:33.025Z",
+        "updated_at": "2023-08-01T11:05:45.888Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "5e80cf4f-900f-4eba-8144-34056fdb0699",
+        "name": "Grace Davis",
+        "created_at": "2023-08-01T00:22:18.120Z",
+        "updated_at": "2023-08-01T11:56:13.468Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "b9e4d776-00d1-47fb-97ed-0738ec7c14fe",
+        "name": "Oliver Wilson",
+        "created_at": "2023-07-31T15:31:17.192Z",
+        "updated_at": "2023-08-01T09:23:44.836Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "5b1e1d6b-aea8-4b95-b057-d8a35f146a25",
+        "subject": "Mathematics",
+        "date": "2023-07-31T13:45:41.276Z",
+        "created_at": "2023-07-31T15:41:05.503Z",
+        "updated_at": "2023-08-01T04:53:59.411Z",
+        "student_id": "14e3aa59-e580-49c4-b4c3-90369b540713"
+      },
+      {
+        "id": "0fa05328-e9a4-4157-8a19-0db728509798",
+        "subject": "English Literature",
+        "date": "2023-07-31T23:44:20.436Z",
+        "created_at": "2023-08-01T12:29:41.962Z",
+        "updated_at": "2023-08-01T05:14:26.760Z",
+        "student_id": "d2b6ae64-853e-4305-af35-f97d40d68350"
+      },
+      {
+        "id": "363d9679-573c-4f23-a890-6b7cc2a125f5",
+        "subject": "Science",
+        "date": "2023-07-31T23:47:35.251Z",
+        "created_at": "2023-07-31T17:59:47.223Z",
+        "updated_at": "2023-07-31T20:59:32.441Z",
+        "student_id": "fd0cb15e-01f5-46d9-bcd0-024eda9b7fd9"
+      },
+      {
+        "id": "5f9c4108-2a2f-4d23-a90e-35fa8765cf1a",
+        "subject": "History",
+        "date": "2023-08-01T05:18:39.936Z",
+        "created_at": "2023-08-01T03:59:41.690Z",
+        "updated_at": "2023-08-01T12:12:22.322Z",
+        "student_id": "1aa96fa1-22c0-47f3-8d1c-063aa700eeec"
+      },
+      {
+        "id": "16dfa84b-0817-4358-915c-ec4c94417057",
+        "subject": "Computer Science",
+        "date": "2023-07-31T15:05:40.100Z",
+        "created_at": "2023-08-01T12:39:25.145Z",
+        "updated_at": "2023-08-01T05:24:07.193Z",
+        "student_id": "10ee73e7-f642-4868-8b9a-334a7dc67a6f"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "4b8829a9-db88-4791-bf99-25f605350c05",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-07-31T23:22:56.499Z",
+        "updated_at": "2023-08-01T07:02:16.838Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1d0c6cd0-98d7-4e34-b7c2-e87ec205bf8e",
+        "name": "Ms. Anderson",
+        "subject": "English Literature",
+        "created_at": "2023-08-01T04:44:22.662Z",
+        "updated_at": "2023-07-31T14:53:30.704Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "79e3f2bf-4ae5-43e4-812a-558598bf59b4",
+        "name": "Dr. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T19:31:06.994Z",
+        "updated_at": "2023-08-01T04:08:52.567Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "6312eec6-4997-4cc6-8cc7-08777ed274be",
+        "name": "Mrs. Davis",
+        "subject": "History",
+        "created_at": "2023-08-01T08:01:14.116Z",
+        "updated_at": "2023-08-01T05:20:18.986Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "dfca96c9-cf44-48d7-a756-6b3b589e92fb",
+        "name": "Mr. Martinez",
+        "subject": "Computer Science",
+        "created_at": "2023-07-31T20:51:57.492Z",
+        "updated_at": "2023-08-01T02:17:36.047Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "d7bf4013-e67c-4e95-8bd9-ed5d5323bf23",
+        "name": "Emily Johnson",
+        "attendance": 20392,
+        "academic_record": 27107,
+        "behavior_record": 97060,
+        "health_record": 69752,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "John Johnson (Father)",
+        "created_at": "2023-07-31T20:44:26.643Z",
+        "updated_at": "2023-08-01T12:51:08.431Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "84ddeed6-7adc-48ca-98b5-aa8cbed9814e",
+        "name": "Daniel Smith",
+        "attendance": 36020,
+        "academic_record": 6257,
+        "behavior_record": 29145,
+        "health_record": 79559,
+        "admission_status": false,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Sarah Smith (Mother)",
+        "created_at": "2023-08-01T04:48:19.998Z",
+        "updated_at": "2023-07-31T14:53:54.438Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ea2d9a9b-b4e2-469c-97ff-543b408d737d",
+        "name": "Olivia Thompson",
+        "attendance": 38630,
+        "academic_record": 86100,
+        "behavior_record": 97385,
+        "health_record": 42363,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Michael Thompson (Father)",
+        "created_at": "2023-08-01T10:22:30.123Z",
+        "updated_at": "2023-08-01T13:04:08.933Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "00e84206-dccc-4339-9a89-83fcaf3e2ec0",
+        "name": "Sophia Davis",
+        "attendance": 86824,
+        "academic_record": 30274,
+        "behavior_record": 84609,
+        "health_record": 56190,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Jessica Davis (Mother)",
+        "created_at": "2023-08-01T05:10:59.575Z",
+        "updated_at": "2023-08-01T04:36:16.286Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1f3f295b-147b-4b6f-b8ec-3d686a930fa4",
+        "name": "Jacob Martinez",
+        "attendance": 82652,
+        "academic_record": 81612,
+        "behavior_record": 99338,
+        "health_record": 51132,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "David Martinez (Father)",
+        "created_at": "2023-07-31T23:49:30.050Z",
+        "updated_at": "2023-08-01T04:21:26.997Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "58488b29-a9b2-4f98-8ea3-7367820df4d1",
+        "subject": "Mathematics",
+        "time": "2023-07-31T22:01:39.708Z",
+        "created_at": "2023-08-01T10:31:29.819Z",
+        "updated_at": "2023-07-31T15:44:09.776Z",
+        "student_id": "1f3f295b-147b-4b6f-b8ec-3d686a930fa4",
+        "teacher_id": "4b8829a9-db88-4791-bf99-25f605350c05"
+      },
+      {
+        "id": "eec213b6-b66c-4d34-bf1e-b067d3ce4098",
+        "subject": "English",
+        "time": "2023-07-31T23:29:56.351Z",
+        "created_at": "2023-08-01T04:46:17.551Z",
+        "updated_at": "2023-08-01T05:31:42.870Z",
+        "student_id": "d7bf4013-e67c-4e95-8bd9-ed5d5323bf23",
+        "teacher_id": "1d0c6cd0-98d7-4e34-b7c2-e87ec205bf8e"
+      },
+      {
+        "id": "fe0eaaf1-f2f4-4624-ad1b-4726429fa3f4",
+        "subject": "Science",
+        "time": "2023-08-01T03:42:09.197Z",
+        "created_at": "2023-07-31T14:49:15.578Z",
+        "updated_at": "2023-07-31T14:19:14.459Z",
+        "student_id": "ea2d9a9b-b4e2-469c-97ff-543b408d737d",
+        "teacher_id": "79e3f2bf-4ae5-43e4-812a-558598bf59b4"
+      },
+      {
+        "id": "907576ab-09d9-4cdb-ae0d-2c088d52f4ef",
+        "subject": "History",
+        "time": "2023-07-31T23:22:10.660Z",
+        "created_at": "2023-08-01T00:50:30.877Z",
+        "updated_at": "2023-08-01T09:21:27.973Z",
+        "student_id": "84ddeed6-7adc-48ca-98b5-aa8cbed9814e",
+        "teacher_id": "dfca96c9-cf44-48d7-a756-6b3b589e92fb"
+      },
+      {
+        "id": "e6e771c4-384f-4538-8387-79856106fc5d",
+        "subject": "Computer Science",
+        "time": "2023-07-31T23:57:48.418Z",
+        "created_at": "2023-07-31T17:12:42.570Z",
+        "updated_at": "2023-07-31T23:27:45.857Z",
+        "student_id": "00e84206-dccc-4339-9a89-83fcaf3e2ec0",
+        "teacher_id": "6312eec6-4997-4cc6-8cc7-08777ed274be"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "4a5feddb-dc8b-47bf-ba4e-88c7dc8840c6",
+        "name": "Alex Johnson",
+        "created_at": "2023-07-31T23:55:58.435Z",
+        "updated_at": "2023-08-01T09:24:29.957Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "19946d30-bc1d-4a98-9c0f-e0cec43aae34",
+        "name": "Emma Smith",
+        "created_at": "2023-07-31T20:55:27.691Z",
+        "updated_at": "2023-07-31T16:05:02.684Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "c1273be9-4f40-422d-a11a-ca5de79188f5",
+        "name": "Oliver Thompson",
+        "created_at": "2023-08-01T03:08:51.442Z",
+        "updated_at": "2023-07-31T16:22:32.817Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "d3f85509-8306-4dae-9d40-71b4676a9d20",
+        "name": "Sophie Davis",
+        "created_at": "2023-08-01T01:46:46.631Z",
+        "updated_at": "2023-07-31T22:08:02.591Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f52d0ef0-a776-48d8-9006-cf441612c440",
+        "name": "Ryan Martinez",
+        "created_at": "2023-08-01T10:51:20.522Z",
+        "updated_at": "2023-07-31T15:27:57.858Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "9c73a18b-8852-46f5-a148-2010146f05f6",
+        "subject": "Mathematics",
+        "date": "2023-08-01T01:21:21.177Z",
+        "created_at": "2023-08-01T07:01:36.913Z",
+        "updated_at": "2023-08-01T06:47:25.666Z",
+        "student_id": "84ddeed6-7adc-48ca-98b5-aa8cbed9814e"
+      },
+      {
+        "id": "b1561a06-5022-419a-b31b-596c29996875",
+        "subject": "English Literature",
+        "date": "2023-08-01T01:05:27.583Z",
+        "created_at": "2023-07-31T15:43:02.776Z",
+        "updated_at": "2023-08-01T02:27:38.283Z",
+        "student_id": "ea2d9a9b-b4e2-469c-97ff-543b408d737d"
+      },
+      {
+        "id": "f0419c9d-ca7b-40c1-92cd-816541fc111c",
+        "subject": "Science",
+        "date": "2023-07-31T14:54:51.498Z",
+        "created_at": "2023-08-01T03:29:13.414Z",
+        "updated_at": "2023-07-31T21:02:58.103Z",
+        "student_id": "84ddeed6-7adc-48ca-98b5-aa8cbed9814e"
+      },
+      {
+        "id": "97531b54-a46d-4f9d-97db-bd8eda5640fd",
+        "subject": "History",
+        "date": "2023-07-31T14:06:22.909Z",
+        "created_at": "2023-07-31T18:29:55.438Z",
+        "updated_at": "2023-08-01T05:04:13.863Z",
+        "student_id": "1f3f295b-147b-4b6f-b8ec-3d686a930fa4"
+      },
+      {
+        "id": "cd1e93da-14cf-4f6f-9351-e3510f253026",
+        "subject": "Computer Science",
+        "date": "2023-08-01T11:26:27.451Z",
+        "created_at": "2023-07-31T13:52:00.465Z",
+        "updated_at": "2023-07-31T17:47:19.823Z",
+        "student_id": "d7bf4013-e67c-4e95-8bd9-ed5d5323bf23"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "73169a20-b409-4171-bf76-6b2da58e19d8",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T01:14:52.824Z",
+        "updated_at": "2023-07-31T23:53:54.318Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "cc2b4dd7-21ac-483e-b88c-9e035ea444c0",
+        "name": "Mrs. Anderson",
+        "subject": "English",
+        "created_at": "2023-07-31T22:34:50.225Z",
+        "updated_at": "2023-07-31T13:42:06.869Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "e40997c2-54ba-4d6d-8a99-f7143a7369de",
+        "name": "Ms. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T20:35:42.413Z",
+        "updated_at": "2023-08-01T06:42:51.333Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1435e395-b42b-4994-b316-d3167415ac67",
+        "name": "Dr. Martinez",
+        "subject": "History",
+        "created_at": "2023-08-01T06:28:22.961Z",
+        "updated_at": "2023-07-31T13:59:13.124Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "8640303d-a386-4786-a347-cf32b6b18378",
+        "name": "Mr. Davis",
+        "subject": "Art",
+        "created_at": "2023-07-31T23:36:32.610Z",
+        "updated_at": "2023-07-31T18:20:46.846Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "83bc54a6-2b46-4397-8264-65e9f0fdf5d7",
+        "name": "Emily",
+        "attendance": 21164,
+        "academic_record": 14251,
+        "behavior_record": 85411,
+        "health_record": 28612,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "Parent: John Doe, Contact: 123-456-7890",
+        "created_at": "2023-08-01T03:45:01.548Z",
+        "updated_at": "2023-07-31T15:34:07.219Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "38b9245b-07ab-41c6-88ad-1115d88726ac",
+        "name": "Daniel",
+        "attendance": 31775,
+        "academic_record": 39153,
+        "behavior_record": 43592,
+        "health_record": 10474,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": true,
+        "parent_info": "Parent: Jane Smith, Contact: 987-654-3210",
+        "created_at": "2023-08-01T02:20:22.245Z",
+        "updated_at": "2023-08-01T03:20:27.961Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "cfb51158-a3f8-4101-a285-d6e17c6d10b9",
+        "name": "Olivia",
+        "attendance": 80401,
+        "academic_record": 16967,
+        "behavior_record": 89724,
+        "health_record": 63171,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Parent: Michael Brown, Contact: 555-123-4567",
+        "created_at": "2023-07-31T19:24:09.144Z",
+        "updated_at": "2023-08-01T07:19:01.618Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "e5737393-b253-4915-87fb-85fa19dbcf15",
+        "name": "Jacob",
+        "attendance": 97914,
+        "academic_record": 29278,
+        "behavior_record": 35856,
+        "health_record": 11711,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "Parent: Sarah Jones, Contact: 888-999-0000",
+        "created_at": "2023-07-31T18:25:09.495Z",
+        "updated_at": "2023-07-31T21:22:29.016Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "af5217bf-62b7-46cf-9a84-88f38f9f68dd",
+        "name": "Sophia",
+        "attendance": 65436,
+        "academic_record": 85683,
+        "behavior_record": 60379,
+        "health_record": 91338,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Parent: David Wilson, Contact: 111-222-3333",
+        "created_at": "2023-08-01T11:08:54.606Z",
+        "updated_at": "2023-07-31T21:58:32.056Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "8ae705c9-1c1b-4d46-b20c-4904e7c7d17a",
+        "subject": "Mathematics",
+        "time": "2023-08-01T05:15:42.625Z",
+        "created_at": "2023-07-31T17:01:54.800Z",
+        "updated_at": "2023-08-01T03:28:06.432Z",
+        "student_id": "cfb51158-a3f8-4101-a285-d6e17c6d10b9",
+        "teacher_id": "8640303d-a386-4786-a347-cf32b6b18378"
+      },
+      {
+        "id": "0ddfc82b-bc80-4309-a936-0ce8af6cafaa",
+        "subject": "English",
+        "time": "2023-08-01T12:43:13.953Z",
+        "created_at": "2023-07-31T21:59:59.774Z",
+        "updated_at": "2023-07-31T21:47:28.800Z",
+        "student_id": "e5737393-b253-4915-87fb-85fa19dbcf15",
+        "teacher_id": "73169a20-b409-4171-bf76-6b2da58e19d8"
+      },
+      {
+        "id": "a080df62-5aab-4b5f-b481-82442e01d9e7",
+        "subject": "Science",
+        "time": "2023-07-31T18:27:58.105Z",
+        "created_at": "2023-07-31T23:05:09.423Z",
+        "updated_at": "2023-08-01T05:09:08.891Z",
+        "student_id": "af5217bf-62b7-46cf-9a84-88f38f9f68dd",
+        "teacher_id": "1435e395-b42b-4994-b316-d3167415ac67"
+      },
+      {
+        "id": "492b4903-330b-434c-a684-511964f0b02c",
+        "subject": "History",
+        "time": "2023-07-31T20:08:52.865Z",
+        "created_at": "2023-08-01T09:59:54.826Z",
+        "updated_at": "2023-08-01T12:10:46.369Z",
+        "student_id": "af5217bf-62b7-46cf-9a84-88f38f9f68dd",
+        "teacher_id": "73169a20-b409-4171-bf76-6b2da58e19d8"
+      },
+      {
+        "id": "a665ca1f-5a28-468e-b2a9-ede1c9132b9d",
+        "subject": "Art",
+        "time": "2023-08-01T06:53:28.703Z",
+        "created_at": "2023-07-31T14:00:57.467Z",
+        "updated_at": "2023-07-31T21:04:27.920Z",
+        "student_id": "cfb51158-a3f8-4101-a285-d6e17c6d10b9",
+        "teacher_id": "e40997c2-54ba-4d6d-8a99-f7143a7369de"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "af24b888-96bc-4def-80e7-a00562691fd1",
+        "name": "Alex",
+        "created_at": "2023-08-01T11:27:55.093Z",
+        "updated_at": "2023-07-31T19:31:33.725Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ea85ec0c-8061-40e0-a884-90b9ce0e3840",
+        "name": "Sophie",
+        "created_at": "2023-08-01T00:29:22.749Z",
+        "updated_at": "2023-07-31T20:19:13.247Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "2fb7d0cb-4da0-4247-adbb-cec5ae77a1ed",
+        "name": "Ryan",
+        "created_at": "2023-08-01T07:21:38.915Z",
+        "updated_at": "2023-07-31T18:54:24.216Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "80283138-670a-42ce-931b-a123f96302df",
+        "name": "Emma",
+        "created_at": "2023-08-01T02:44:31.506Z",
+        "updated_at": "2023-07-31T15:14:52.805Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "563980e2-2eb9-4d08-b605-c2f143d9f12a",
+        "name": "Max",
+        "created_at": "2023-07-31T17:59:41.354Z",
+        "updated_at": "2023-08-01T08:19:39.827Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "0549e454-ed71-4fd7-bd21-4a7fba821b58",
+        "subject": "Mathematics",
+        "date": "2023-08-01T04:22:19.590Z",
+        "created_at": "2023-08-01T09:48:42.992Z",
+        "updated_at": "2023-08-01T08:41:05.849Z",
+        "student_id": "af5217bf-62b7-46cf-9a84-88f38f9f68dd"
+      },
+      {
+        "id": "df0fecca-2401-4301-92d6-3a86010fcbd2",
+        "subject": "English",
+        "date": "2023-07-31T21:26:58.558Z",
+        "created_at": "2023-07-31T20:49:17.615Z",
+        "updated_at": "2023-08-01T00:23:53.704Z",
+        "student_id": "38b9245b-07ab-41c6-88ad-1115d88726ac"
+      },
+      {
+        "id": "f45531e6-c2b9-4925-b604-28fc71435644",
+        "subject": "Science",
+        "date": "2023-08-01T03:18:38.952Z",
+        "created_at": "2023-08-01T10:31:52.331Z",
+        "updated_at": "2023-08-01T10:37:28.749Z",
+        "student_id": "38b9245b-07ab-41c6-88ad-1115d88726ac"
+      },
+      {
+        "id": "cf1f0b50-dabc-4685-aa1d-c47631087ed3",
+        "subject": "History",
+        "date": "2023-08-01T03:09:04.960Z",
+        "created_at": "2023-08-01T11:35:35.675Z",
+        "updated_at": "2023-07-31T18:19:14.868Z",
+        "student_id": "83bc54a6-2b46-4397-8264-65e9f0fdf5d7"
+      },
+      {
+        "id": "fe274c5b-e907-4365-8ba8-42930b82fa64",
+        "subject": "Art",
+        "date": "2023-07-31T19:11:23.011Z",
+        "created_at": "2023-08-01T00:25:19.141Z",
+        "updated_at": "2023-08-01T03:01:07.981Z",
+        "student_id": "83bc54a6-2b46-4397-8264-65e9f0fdf5d7"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "42c3e37f-8c12-4f7c-b8ac-622f22394ee3",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T01:14:13.454Z",
+        "updated_at": "2023-08-01T11:06:38.746Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "1a1257e0-5e2d-4e59-9ef9-064c48ce255b",
+        "name": "Mrs. Anderson",
+        "subject": "English",
+        "created_at": "2023-08-01T04:21:37.340Z",
+        "updated_at": "2023-08-01T01:16:34.733Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "472f9b1e-c4bd-4a92-ac86-83a3087bfa9d",
+        "name": "Ms. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T20:46:00.385Z",
+        "updated_at": "2023-07-31T13:42:36.475Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "8b4d73b2-d7de-4218-b923-aea531b0f66e",
+        "name": "Dr. Martinez",
+        "subject": "History",
+        "created_at": "2023-07-31T23:45:43.537Z",
+        "updated_at": "2023-08-01T04:44:03.155Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "da8a5ab5-439e-4683-87a7-214be852c946",
+        "name": "Mr. Davis",
+        "subject": "Art",
+        "created_at": "2023-08-01T04:03:38.634Z",
+        "updated_at": "2023-07-31T16:20:51.152Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "fd518094-2ac4-4c5f-994b-e3894283b916",
+        "name": "Emily",
+        "attendance": 69656,
+        "academic_record": 41404,
+        "behavior_record": 84689,
+        "health_record": 72091,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Parent: John Doe, Contact: 123-456-7890",
+        "created_at": "2023-07-31T18:46:46.717Z",
+        "updated_at": "2023-07-31T23:17:25.249Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "4ce373e8-e676-4c44-9a48-82fd57a59c24",
+        "name": "Daniel",
+        "attendance": 27866,
+        "academic_record": 869,
+        "behavior_record": 29975,
+        "health_record": 55552,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "Parent: Jane Smith, Contact: 987-654-3210",
+        "created_at": "2023-08-01T09:56:08.597Z",
+        "updated_at": "2023-07-31T23:20:29.112Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "e5bcb3bb-3b3a-4e1b-ac62-efa63206e6f7",
+        "name": "Olivia",
+        "attendance": 36540,
+        "academic_record": 40699,
+        "behavior_record": 24826,
+        "health_record": 16341,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Parent: Michael Brown, Contact: 555-123-4567",
+        "created_at": "2023-07-31T17:15:10.015Z",
+        "updated_at": "2023-07-31T15:29:14.259Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "fd25138f-12e0-4fa8-9de5-2e07a7429bcb",
+        "name": "Jacob",
+        "attendance": 67057,
+        "academic_record": 3055,
+        "behavior_record": 85404,
+        "health_record": 16410,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Parent: Sarah Jones, Contact: 888-999-0000",
+        "created_at": "2023-07-31T16:46:06.220Z",
+        "updated_at": "2023-08-01T08:26:19.105Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0b9e2a1a-0a18-4d77-afb5-5a1a0e1a3f88",
+        "name": "Sophia",
+        "attendance": 32269,
+        "academic_record": 11051,
+        "behavior_record": 47853,
+        "health_record": 86370,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Parent: David Wilson, Contact: 111-222-3333",
+        "created_at": "2023-08-01T08:05:48.949Z",
+        "updated_at": "2023-08-01T04:57:46.211Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "972a98a4-5ea2-4247-9bf2-9cbe51beeec8",
+        "subject": "Mathematics",
+        "time": "2023-07-31T21:50:36.620Z",
+        "created_at": "2023-08-01T13:21:28.392Z",
+        "updated_at": "2023-08-01T06:24:38.497Z",
+        "student_id": "fd25138f-12e0-4fa8-9de5-2e07a7429bcb",
+        "teacher_id": "472f9b1e-c4bd-4a92-ac86-83a3087bfa9d"
+      },
+      {
+        "id": "095aaf3b-96cd-4725-a33b-9eab4b940359",
+        "subject": "English",
+        "time": "2023-08-01T02:11:03.524Z",
+        "created_at": "2023-08-01T01:50:45.881Z",
+        "updated_at": "2023-07-31T14:30:04.651Z",
+        "student_id": "0b9e2a1a-0a18-4d77-afb5-5a1a0e1a3f88",
+        "teacher_id": "8b4d73b2-d7de-4218-b923-aea531b0f66e"
+      },
+      {
+        "id": "9913e350-04ea-4abf-8562-48d982f4b8ae",
+        "subject": "Science",
+        "time": "2023-07-31T19:11:00.713Z",
+        "created_at": "2023-08-01T06:34:22.821Z",
+        "updated_at": "2023-07-31T16:39:30.067Z",
+        "student_id": "fd518094-2ac4-4c5f-994b-e3894283b916",
+        "teacher_id": "8b4d73b2-d7de-4218-b923-aea531b0f66e"
+      },
+      {
+        "id": "4cd2f961-8795-4b10-8b58-6ddbdb74d274",
+        "subject": "History",
+        "time": "2023-07-31T18:45:52.358Z",
+        "created_at": "2023-07-31T21:05:50.259Z",
+        "updated_at": "2023-07-31T16:07:10.254Z",
+        "student_id": "fd25138f-12e0-4fa8-9de5-2e07a7429bcb",
+        "teacher_id": "1a1257e0-5e2d-4e59-9ef9-064c48ce255b"
+      },
+      {
+        "id": "8d076942-dda5-4f51-9155-06e54478008e",
+        "subject": "Art",
+        "time": "2023-07-31T16:20:35.789Z",
+        "created_at": "2023-07-31T19:23:03.935Z",
+        "updated_at": "2023-08-01T13:25:11.472Z",
+        "student_id": "0b9e2a1a-0a18-4d77-afb5-5a1a0e1a3f88",
+        "teacher_id": "472f9b1e-c4bd-4a92-ac86-83a3087bfa9d"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "88028cfe-a04e-47ad-87c5-cf3a508465eb",
+        "name": "Alex",
+        "created_at": "2023-08-01T01:11:37.412Z",
+        "updated_at": "2023-07-31T18:23:31.068Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "687ed76c-19da-4aff-bb68-fc6d3c10244a",
+        "name": "Sophie",
+        "created_at": "2023-08-01T07:43:38.947Z",
+        "updated_at": "2023-07-31T21:47:35.013Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "03fa4820-bfcd-448e-8958-fa903d3edd35",
+        "name": "Ryan",
+        "created_at": "2023-08-01T09:58:08.858Z",
+        "updated_at": "2023-08-01T02:53:47.542Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "b415ca64-b6a9-400f-aac0-a184f80a683b",
+        "name": "Emma",
+        "created_at": "2023-08-01T12:46:44.838Z",
+        "updated_at": "2023-08-01T01:14:39.224Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "22f6667f-fafc-4bcc-afdd-a1d3f6e0459c",
+        "name": "Max",
+        "created_at": "2023-07-31T23:38:35.976Z",
+        "updated_at": "2023-08-01T01:29:34.748Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "b0ec17cd-1680-4fd2-a050-2db4aa0ff545",
+        "subject": "Mathematics",
+        "date": "2023-08-01T01:30:07.499Z",
+        "created_at": "2023-07-31T17:31:51.854Z",
+        "updated_at": "2023-07-31T20:00:12.949Z",
+        "student_id": "0b9e2a1a-0a18-4d77-afb5-5a1a0e1a3f88"
+      },
+      {
+        "id": "0b4d39ae-4faa-4a2a-b316-9488a7b703fd",
+        "subject": "English",
+        "date": "2023-08-01T00:59:27.681Z",
+        "created_at": "2023-08-01T06:13:49.506Z",
+        "updated_at": "2023-08-01T13:32:18.886Z",
+        "student_id": "fd25138f-12e0-4fa8-9de5-2e07a7429bcb"
+      },
+      {
+        "id": "e7a5d54e-a501-4676-824e-5306eb72b3b5",
+        "subject": "Science",
+        "date": "2023-08-01T03:13:08.749Z",
+        "created_at": "2023-07-31T14:23:45.701Z",
+        "updated_at": "2023-07-31T22:45:54.409Z",
+        "student_id": "e5bcb3bb-3b3a-4e1b-ac62-efa63206e6f7"
+      },
+      {
+        "id": "2b36b8da-1d3c-4616-8089-1c55ebb88f0d",
+        "subject": "History",
+        "date": "2023-07-31T18:13:23.594Z",
+        "created_at": "2023-08-01T10:07:43.272Z",
+        "updated_at": "2023-08-01T13:09:18.045Z",
+        "student_id": "4ce373e8-e676-4c44-9a48-82fd57a59c24"
+      },
+      {
+        "id": "a6513c87-a6cf-4569-a861-759b9b20992a",
+        "subject": "Art",
+        "date": "2023-07-31T14:41:07.100Z",
+        "created_at": "2023-07-31T23:50:57.849Z",
+        "updated_at": "2023-08-01T10:16:16.824Z",
+        "student_id": "0b9e2a1a-0a18-4d77-afb5-5a1a0e1a3f88"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "cd4a2291-3293-46f2-abae-14e0983b000a",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T10:07:35.613Z",
+        "updated_at": "2023-07-31T16:52:04.118Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "82646272-8a3e-48f8-8245-f8f5787c85fd",
+        "name": "Ms. Anderson",
+        "subject": "English",
+        "created_at": "2023-08-01T01:08:18.388Z",
+        "updated_at": "2023-07-31T23:14:26.054Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "9596d784-a95a-4b08-92cd-e1aa75f8d864",
+        "name": "Dr. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T15:27:54.668Z",
+        "updated_at": "2023-07-31T20:32:43.962Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "4c9456c9-9df2-4e4f-bac1-854a69bc9993",
+        "name": "Mrs. Davis",
+        "subject": "History",
+        "created_at": "2023-08-01T03:58:02.146Z",
+        "updated_at": "2023-08-01T07:28:29.616Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f4507052-746b-44c7-b58d-edec911e6c87",
+        "name": "Mr. Wilson",
+        "subject": "Art",
+        "created_at": "2023-08-01T13:28:47.769Z",
+        "updated_at": "2023-07-31T13:59:49.898Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "6b02f722-ccb6-4cdc-a8db-8267daf51ef8",
+        "name": "Emily",
+        "attendance": 78130,
+        "academic_record": 70575,
+        "behavior_record": 99203,
+        "health_record": 83087,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "John Doe (Father)",
+        "created_at": "2023-08-01T06:37:04.958Z",
+        "updated_at": "2023-07-31T22:03:40.125Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "6681188e-78b8-4450-bf2b-fbb1202a83e2",
+        "name": "Daniel",
+        "attendance": 32702,
+        "academic_record": 93981,
+        "behavior_record": 85513,
+        "health_record": 26848,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Jane Smith (Mother)",
+        "created_at": "2023-08-01T00:33:12.599Z",
+        "updated_at": "2023-08-01T09:14:13.380Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "eaa45804-3688-4c4b-8778-91e0e81e7472",
+        "name": "Olivia",
+        "attendance": 90135,
+        "academic_record": 87593,
+        "behavior_record": 80650,
+        "health_record": 38280,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Michael Brown (Guardian)",
+        "created_at": "2023-07-31T17:36:11.348Z",
+        "updated_at": "2023-07-31T21:53:09.365Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a36dcb09-acf0-4229-9f8d-5c59afeca40a",
+        "name": "Jacob",
+        "attendance": 57923,
+        "academic_record": 45107,
+        "behavior_record": 63795,
+        "health_record": 84395,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Sarah Jones (Parent)",
+        "created_at": "2023-07-31T21:52:05.029Z",
+        "updated_at": "2023-08-01T12:00:35.377Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "53d3787f-ea3a-4be8-bc4c-a99d658c0da7",
+        "name": "Sophia",
+        "attendance": 22216,
+        "academic_record": 5618,
+        "behavior_record": 52967,
+        "health_record": 44794,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "David Wilson (Parent)",
+        "created_at": "2023-08-01T10:22:44.195Z",
+        "updated_at": "2023-08-01T08:44:05.187Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "984b5567-dc60-4644-8825-ac9852a067d6",
+        "subject": "Mathematics",
+        "time": "2023-07-31T19:01:54.951Z",
+        "created_at": "2023-08-01T11:27:44.833Z",
+        "updated_at": "2023-08-01T09:03:42.976Z",
+        "student_id": "6b02f722-ccb6-4cdc-a8db-8267daf51ef8",
+        "teacher_id": "9596d784-a95a-4b08-92cd-e1aa75f8d864"
+      },
+      {
+        "id": "65e43a76-34f6-423e-beb9-1233f52a6e0b",
+        "subject": "English",
+        "time": "2023-08-01T10:18:43.152Z",
+        "created_at": "2023-07-31T17:56:58.454Z",
+        "updated_at": "2023-07-31T18:41:41.350Z",
+        "student_id": "a36dcb09-acf0-4229-9f8d-5c59afeca40a",
+        "teacher_id": "4c9456c9-9df2-4e4f-bac1-854a69bc9993"
+      },
+      {
+        "id": "860d4291-3ecf-493e-aa58-73d99a4588ec",
+        "subject": "Science",
+        "time": "2023-07-31T19:00:56.319Z",
+        "created_at": "2023-07-31T18:37:48.853Z",
+        "updated_at": "2023-08-01T10:33:25.722Z",
+        "student_id": "a36dcb09-acf0-4229-9f8d-5c59afeca40a",
+        "teacher_id": "cd4a2291-3293-46f2-abae-14e0983b000a"
+      },
+      {
+        "id": "68f0d82f-46ad-43b7-8e3d-de1f12e77f84",
+        "subject": "History",
+        "time": "2023-08-01T04:25:08.467Z",
+        "created_at": "2023-07-31T18:58:04.065Z",
+        "updated_at": "2023-08-01T10:23:01.899Z",
+        "student_id": "6681188e-78b8-4450-bf2b-fbb1202a83e2",
+        "teacher_id": "4c9456c9-9df2-4e4f-bac1-854a69bc9993"
+      },
+      {
+        "id": "ed72d44a-0fdd-460a-afb6-dddfa7d0dad0",
+        "subject": "Art",
+        "time": "2023-07-31T15:11:22.716Z",
+        "created_at": "2023-08-01T07:19:07.211Z",
+        "updated_at": "2023-08-01T02:52:34.461Z",
+        "student_id": "6681188e-78b8-4450-bf2b-fbb1202a83e2",
+        "teacher_id": "9596d784-a95a-4b08-92cd-e1aa75f8d864"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "57e30edb-f877-468d-a48c-b165d2824784",
+        "name": "Alex",
+        "created_at": "2023-07-31T18:52:04.080Z",
+        "updated_at": "2023-08-01T05:52:11.468Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "65a723a0-42a9-4eeb-9c73-f76ddb937f74",
+        "name": "Emma",
+        "created_at": "2023-07-31T21:33:46.683Z",
+        "updated_at": "2023-07-31T23:41:05.360Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "8946d1cb-22ca-4801-874e-1a7dd1f7c3bf",
+        "name": "Ryan",
+        "created_at": "2023-07-31T23:40:29.472Z",
+        "updated_at": "2023-07-31T14:08:23.382Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "dcd91a00-de81-4de1-88ce-9c6d213799ac",
+        "name": "Grace",
+        "created_at": "2023-08-01T08:15:10.807Z",
+        "updated_at": "2023-08-01T00:58:28.634Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0f7a881d-59f5-4ffe-9af0-fbe4f4be9c0f",
+        "name": "Oliver",
+        "created_at": "2023-08-01T10:09:48.398Z",
+        "updated_at": "2023-08-01T02:28:16.538Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "43177642-2d05-4ecb-b18e-44f39b960558",
+        "subject": "Mathematics",
+        "date": "2023-07-31T14:21:09.877Z",
+        "created_at": "2023-07-31T14:39:56.311Z",
+        "updated_at": "2023-08-01T04:07:58.958Z",
+        "student_id": "6681188e-78b8-4450-bf2b-fbb1202a83e2"
+      },
+      {
+        "id": "74de5ed9-bdeb-4f0f-9bca-8898fc6cd852",
+        "subject": "English",
+        "date": "2023-07-31T15:50:06.734Z",
+        "created_at": "2023-08-01T00:14:24.132Z",
+        "updated_at": "2023-08-01T11:19:43.302Z",
+        "student_id": "53d3787f-ea3a-4be8-bc4c-a99d658c0da7"
+      },
+      {
+        "id": "08fb682e-6575-4607-baa6-8aa8f8e8b7c5",
+        "subject": "Science",
+        "date": "2023-07-31T19:52:49.879Z",
+        "created_at": "2023-07-31T18:43:04.358Z",
+        "updated_at": "2023-08-01T11:52:18.377Z",
+        "student_id": "53d3787f-ea3a-4be8-bc4c-a99d658c0da7"
+      },
+      {
+        "id": "ec25d074-1b5e-496e-a972-b6a7ccc3e522",
+        "subject": "History",
+        "date": "2023-07-31T19:55:37.651Z",
+        "created_at": "2023-08-01T12:07:02.514Z",
+        "updated_at": "2023-07-31T18:18:56.691Z",
+        "student_id": "53d3787f-ea3a-4be8-bc4c-a99d658c0da7"
+      },
+      {
+        "id": "310ed9f8-7c93-4134-9d0d-1d5dca72d39e",
+        "subject": "Art",
+        "date": "2023-07-31T22:39:03.444Z",
+        "created_at": "2023-07-31T16:37:11.435Z",
+        "updated_at": "2023-07-31T20:16:50.975Z",
+        "student_id": "6b02f722-ccb6-4cdc-a8db-8267daf51ef8"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "7fe41cf8-d31e-4eed-b1e1-6d27a47bab3d",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T10:34:14.523Z",
+        "updated_at": "2023-08-01T00:03:05.434Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0947f8a4-4624-499e-88be-f626d42ce632",
+        "name": "Ms. Anderson",
+        "subject": "English",
+        "created_at": "2023-07-31T19:31:22.734Z",
+        "updated_at": "2023-08-01T03:05:07.447Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "537e594e-18b8-422b-96e8-7e194395147f",
+        "name": "Dr. Thompson",
+        "subject": "Science",
+        "created_at": "2023-08-01T05:34:06.279Z",
+        "updated_at": "2023-08-01T11:40:40.997Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "aabfceab-770f-4644-9a8c-2769fbe33cd9",
+        "name": "Mrs. Davis",
+        "subject": "History",
+        "created_at": "2023-08-01T12:07:08.158Z",
+        "updated_at": "2023-08-01T02:33:29.753Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a6902b12-b581-4fc0-92cc-a954012d7ded",
+        "name": "Mr. Wilson",
+        "subject": "Art",
+        "created_at": "2023-07-31T19:54:02.999Z",
+        "updated_at": "2023-08-01T04:40:43.158Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "39f1b20e-873b-42bb-90f5-264d9ebfd2e7",
+        "name": "Emily",
+        "attendance": 64791,
+        "academic_record": 538,
+        "behavior_record": 91109,
+        "health_record": 76685,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "John Doe (Father)",
+        "created_at": "2023-08-01T03:46:18.215Z",
+        "updated_at": "2023-07-31T22:41:13.134Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f27690ab-de06-4918-9481-af99101df787",
+        "name": "Daniel",
+        "attendance": 36795,
+        "academic_record": 99557,
+        "behavior_record": 42544,
+        "health_record": 57555,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Jane Smith (Mother)",
+        "created_at": "2023-08-01T07:11:29.925Z",
+        "updated_at": "2023-08-01T00:39:24.285Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "86bed11a-91c9-4f6b-916a-013790f96356",
+        "name": "Olivia",
+        "attendance": 91322,
+        "academic_record": 38974,
+        "behavior_record": 97912,
+        "health_record": 78918,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Michael Brown (Guardian)",
+        "created_at": "2023-08-01T09:22:07.954Z",
+        "updated_at": "2023-08-01T10:40:33.041Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d",
+        "name": "Jacob",
+        "attendance": 88042,
+        "academic_record": 22531,
+        "behavior_record": 89257,
+        "health_record": 47359,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Sarah Jones (Parent)",
+        "created_at": "2023-07-31T16:30:31.868Z",
+        "updated_at": "2023-07-31T20:15:19.276Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "56b3c588-9e35-4ddc-a334-c1965d124117",
+        "name": "Sophia",
+        "attendance": 58830,
+        "academic_record": 78061,
+        "behavior_record": 77241,
+        "health_record": 30044,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "David Wilson (Parent)",
+        "created_at": "2023-08-01T00:01:58.889Z",
+        "updated_at": "2023-07-31T20:11:12.973Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "1eab47d1-4a59-4448-b9db-e02d03e139d4",
+        "subject": "Mathematics",
+        "time": "2023-08-01T06:40:02.001Z",
+        "created_at": "2023-07-31T18:40:49.708Z",
+        "updated_at": "2023-08-01T01:38:25.483Z",
+        "student_id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d",
+        "teacher_id": "537e594e-18b8-422b-96e8-7e194395147f"
+      },
+      {
+        "id": "ec2fc958-5c4b-4de6-a89d-47eb95008763",
+        "subject": "English",
+        "time": "2023-08-01T01:41:23.749Z",
+        "created_at": "2023-08-01T01:10:06.667Z",
+        "updated_at": "2023-08-01T07:43:52.959Z",
+        "student_id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d",
+        "teacher_id": "aabfceab-770f-4644-9a8c-2769fbe33cd9"
+      },
+      {
+        "id": "b6109f23-c3de-4f68-9d37-41efafa39020",
+        "subject": "Science",
+        "time": "2023-07-31T17:33:59.067Z",
+        "created_at": "2023-07-31T19:28:00.498Z",
+        "updated_at": "2023-07-31T15:47:35.554Z",
+        "student_id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d",
+        "teacher_id": "537e594e-18b8-422b-96e8-7e194395147f"
+      },
+      {
+        "id": "44255d04-def9-43b3-a994-77826040dc97",
+        "subject": "History",
+        "time": "2023-08-01T05:18:28.218Z",
+        "created_at": "2023-07-31T16:47:24.039Z",
+        "updated_at": "2023-07-31T16:41:21.814Z",
+        "student_id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d",
+        "teacher_id": "7fe41cf8-d31e-4eed-b1e1-6d27a47bab3d"
+      },
+      {
+        "id": "9497eeb3-f258-4133-afd7-f6621112f4d1",
+        "subject": "Art",
+        "time": "2023-07-31T19:53:31.051Z",
+        "created_at": "2023-07-31T23:30:06.348Z",
+        "updated_at": "2023-08-01T06:07:59.741Z",
+        "student_id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d",
+        "teacher_id": "a6902b12-b581-4fc0-92cc-a954012d7ded"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "a4b612ff-764f-499c-8e6a-0b21bb3fd826",
+        "name": "Alex",
+        "created_at": "2023-07-31T22:27:00.913Z",
+        "updated_at": "2023-08-01T03:56:23.715Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "13349b06-c9f8-4b4a-9251-4dbb1c709145",
+        "name": "Emma",
+        "created_at": "2023-08-01T10:58:04.433Z",
+        "updated_at": "2023-07-31T22:58:06.027Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "c9c5fa30-c80c-40c0-8a8f-2e6f6f6d79ad",
+        "name": "Ryan",
+        "created_at": "2023-07-31T17:46:24.417Z",
+        "updated_at": "2023-07-31T17:33:50.161Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "dbbe2488-d5b3-420e-9bd7-0322ffa2c741",
+        "name": "Grace",
+        "created_at": "2023-08-01T00:47:54.844Z",
+        "updated_at": "2023-07-31T21:11:40.363Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "db8e2a46-3cd6-47ea-b963-be1ad0077359",
+        "name": "Oliver",
+        "created_at": "2023-08-01T03:24:22.228Z",
+        "updated_at": "2023-08-01T01:16:39.884Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "3d7f7553-5054-40f8-8f0e-0ba07030a261",
+        "subject": "Mathematics",
+        "date": "2023-08-01T00:24:56.639Z",
+        "created_at": "2023-08-01T08:08:24.244Z",
+        "updated_at": "2023-08-01T05:11:10.831Z",
+        "student_id": "f27690ab-de06-4918-9481-af99101df787"
+      },
+      {
+        "id": "4136ad04-d0c6-48a2-9847-665d398f3475",
+        "subject": "English",
+        "date": "2023-08-01T05:49:37.590Z",
+        "created_at": "2023-07-31T22:31:41.078Z",
+        "updated_at": "2023-08-01T03:35:55.182Z",
+        "student_id": "47a8477d-8dd2-471b-99d1-8e58bb019e1d"
+      },
+      {
+        "id": "f11e4401-4a3e-4b13-8757-1e6f6617b81f",
+        "subject": "Science",
+        "date": "2023-07-31T23:08:20.085Z",
+        "created_at": "2023-07-31T14:43:10.596Z",
+        "updated_at": "2023-08-01T00:06:16.427Z",
+        "student_id": "86bed11a-91c9-4f6b-916a-013790f96356"
+      },
+      {
+        "id": "2bc673d5-26f4-4046-b3b7-0b12634f709b",
+        "subject": "History",
+        "date": "2023-08-01T10:20:13.682Z",
+        "created_at": "2023-08-01T10:12:33.979Z",
+        "updated_at": "2023-08-01T00:18:21.027Z",
+        "student_id": "56b3c588-9e35-4ddc-a334-c1965d124117"
+      },
+      {
+        "id": "30a8f924-4cc9-4316-9502-a8445246d217",
+        "subject": "Art",
+        "date": "2023-07-31T21:30:55.319Z",
+        "created_at": "2023-08-01T05:50:51.956Z",
+        "updated_at": "2023-08-01T06:57:51.327Z",
+        "student_id": "f27690ab-de06-4918-9481-af99101df787"
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "be631807-715c-4916-ba94-563dc748b54e",
+        "name": "Mr. Johnson",
+        "subject": "Mathematics",
+        "created_at": "2023-08-01T07:33:48.739Z",
+        "updated_at": "2023-08-01T10:46:32.253Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "88329749-af3d-436b-ac55-650eb5c962b2",
+        "name": "Ms. Anderson",
+        "subject": "English Literature",
+        "created_at": "2023-08-01T07:54:57.647Z",
+        "updated_at": "2023-07-31T23:03:24.304Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "23e44f8a-0c2f-4391-a044-cd7cfa7fb7eb",
+        "name": "Dr. Thompson",
+        "subject": "Science",
+        "created_at": "2023-07-31T23:34:06.324Z",
+        "updated_at": "2023-08-01T01:45:21.772Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "7459d3f4-6de3-4cfa-8132-3eb260b3eeec",
+        "name": "Mrs. Davis",
+        "subject": "History",
+        "created_at": "2023-08-01T10:30:10.905Z",
+        "updated_at": "2023-07-31T23:19:06.563Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "353190c7-95b5-4532-98de-d7f4ba286b17",
+        "name": "Mr. Wilson",
+        "subject": "Computer Science",
+        "created_at": "2023-08-01T05:26:35.999Z",
+        "updated_at": "2023-08-01T06:59:44.971Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "cd14c03b-de45-45d4-874e-6c9a7e240d4b",
+        "name": "Emily Johnson",
+        "attendance": 30559,
+        "academic_record": 52386,
+        "behavior_record": 49649,
+        "health_record": 76249,
+        "admission_status": false,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "John Johnson (Father)",
+        "created_at": "2023-08-01T07:12:12.150Z",
+        "updated_at": "2023-08-01T03:38:32.201Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "cdde3f6d-f806-4dd1-bc55-6e7fb420fb48",
+        "name": "Daniel Smith",
+        "attendance": 66098,
+        "academic_record": 98093,
+        "behavior_record": 79501,
+        "health_record": 67411,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Sarah Smith (Mother)",
+        "created_at": "2023-07-31T17:29:46.848Z",
+        "updated_at": "2023-08-01T10:50:01.302Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "385a7f77-d0ab-4102-b3f3-70f5dc67c41b",
+        "name": "Olivia Thompson",
+        "attendance": 24312,
+        "academic_record": 1439,
+        "behavior_record": 57500,
+        "health_record": 77548,
+        "admission_status": true,
+        "enrollment_status": true,
+        "fee_status": false,
+        "parent_info": "Michael Thompson (Father)",
+        "created_at": "2023-07-31T17:00:03.086Z",
+        "updated_at": "2023-08-01T11:13:16.463Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "8ce2c9d5-3c50-4e32-934d-27357bc119bd",
+        "name": "Sophia Davis",
+        "attendance": 56147,
+        "academic_record": 22334,
+        "behavior_record": 7666,
+        "health_record": 60956,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": false,
+        "parent_info": "Jessica Davis (Mother)",
+        "created_at": "2023-08-01T11:46:33.769Z",
+        "updated_at": "2023-08-01T11:32:19.323Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "2da79fa4-619a-4141-b915-57c5a637727a",
+        "name": "Jacob Wilson",
+        "attendance": 38551,
+        "academic_record": 71668,
+        "behavior_record": 65253,
+        "health_record": 79159,
+        "admission_status": true,
+        "enrollment_status": false,
+        "fee_status": true,
+        "parent_info": "David Wilson (Father)",
+        "created_at": "2023-08-01T07:27:52.076Z",
+        "updated_at": "2023-07-31T14:22:13.701Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "timetable": [
+      {
+        "id": "441a5a6e-edb4-4ae0-a5c2-d1decd22109e",
+        "subject": "Mathematics",
+        "time": "2023-07-31T18:48:24.485Z",
+        "created_at": "2023-08-01T07:54:08.774Z",
+        "updated_at": "2023-07-31T16:27:44.707Z",
+        "student_id": "385a7f77-d0ab-4102-b3f3-70f5dc67c41b",
+        "teacher_id": "88329749-af3d-436b-ac55-650eb5c962b2"
+      },
+      {
+        "id": "f9afcce3-71de-4a53-8902-749ec7771e7d",
+        "subject": "English",
+        "time": "2023-08-01T13:28:00.504Z",
+        "created_at": "2023-08-01T00:53:23.121Z",
+        "updated_at": "2023-07-31T14:37:44.256Z",
+        "student_id": "385a7f77-d0ab-4102-b3f3-70f5dc67c41b",
+        "teacher_id": "be631807-715c-4916-ba94-563dc748b54e"
+      },
+      {
+        "id": "e42b2c55-bfbc-47ef-8d80-2d21cbcc8eb8",
+        "subject": "Science",
+        "time": "2023-08-01T07:18:54.826Z",
+        "created_at": "2023-08-01T07:36:46.106Z",
+        "updated_at": "2023-08-01T10:32:37.879Z",
+        "student_id": "2da79fa4-619a-4141-b915-57c5a637727a",
+        "teacher_id": "23e44f8a-0c2f-4391-a044-cd7cfa7fb7eb"
+      },
+      {
+        "id": "fac42ecf-c645-4058-bf6f-e9b53df57b55",
+        "subject": "History",
+        "time": "2023-08-01T05:29:57.777Z",
+        "created_at": "2023-08-01T02:40:54.506Z",
+        "updated_at": "2023-08-01T07:59:30.882Z",
+        "student_id": "cd14c03b-de45-45d4-874e-6c9a7e240d4b",
+        "teacher_id": "7459d3f4-6de3-4cfa-8132-3eb260b3eeec"
+      },
+      {
+        "id": "38b3c9be-18f1-44da-9de8-78db21856971",
+        "subject": "Computer Science",
+        "time": "2023-07-31T17:12:38.411Z",
+        "created_at": "2023-07-31T15:34:49.935Z",
+        "updated_at": "2023-08-01T04:38:52.729Z",
+        "student_id": "cdde3f6d-f806-4dd1-bc55-6e7fb420fb48",
+        "teacher_id": "7459d3f4-6de3-4cfa-8132-3eb260b3eeec"
+      }
+    ],
+    "it_staff": [
+      {
+        "id": "88500460-d7d1-475b-a5d5-9f3c3e7a73c2",
+        "name": "Alex Johnson",
+        "created_at": "2023-08-01T13:16:35.896Z",
+        "updated_at": "2023-07-31T22:10:52.045Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "76645e27-0008-45f2-9977-0ceedad72499",
+        "name": "Emma Smith",
+        "created_at": "2023-07-31T21:06:34.100Z",
+        "updated_at": "2023-08-01T09:29:07.024Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "904aa8b0-c8e9-409a-ae18-4d82e16327bd",
+        "name": "Oliver Thompson",
+        "created_at": "2023-08-01T10:12:37.919Z",
+        "updated_at": "2023-08-01T10:38:29.422Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "397d96b3-e725-4e66-a8f8-aede0a02d84e",
+        "name": "Sophie Davis",
+        "created_at": "2023-08-01T00:01:11.708Z",
+        "updated_at": "2023-08-01T01:41:13.527Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ad27647d-543e-4625-94f2-55e66b085ee2",
+        "name": "Ryan Wilson",
+        "created_at": "2023-08-01T12:45:30.671Z",
+        "updated_at": "2023-07-31T23:19:29.079Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "examination": [
+      {
+        "id": "e55f9da8-f0ad-4fb6-98fd-95afd77c4aa2",
+        "subject": "Mathematics",
+        "date": "2023-08-01T06:01:48.074Z",
+        "created_at": "2023-07-31T22:25:14.339Z",
+        "updated_at": "2023-08-01T13:27:33.347Z",
+        "student_id": "385a7f77-d0ab-4102-b3f3-70f5dc67c41b"
+      },
+      {
+        "id": "c291982a-8619-4e41-843e-f98594e9778e",
+        "subject": "English Literature",
+        "date": "2023-08-01T12:27:56.892Z",
+        "created_at": "2023-07-31T22:48:30.665Z",
+        "updated_at": "2023-07-31T18:45:44.622Z",
+        "student_id": "cd14c03b-de45-45d4-874e-6c9a7e240d4b"
+      },
+      {
+        "id": "361919dd-de62-44d1-9381-5dcdc679c880",
+        "subject": "Science",
+        "date": "2023-08-01T05:42:32.515Z",
+        "created_at": "2023-07-31T23:50:14.589Z",
+        "updated_at": "2023-07-31T16:29:11.616Z",
+        "student_id": "2da79fa4-619a-4141-b915-57c5a637727a"
+      },
+      {
+        "id": "6e95362d-db22-4ae7-94cf-b530c36135b5",
+        "subject": "History",
+        "date": "2023-07-31T19:33:48.498Z",
+        "created_at": "2023-07-31T18:01:17.635Z",
+        "updated_at": "2023-08-01T07:35:26.012Z",
+        "student_id": "2da79fa4-619a-4141-b915-57c5a637727a"
+      },
+      {
+        "id": "a16db928-d268-4987-861e-2e0a008cd3a3",
+        "subject": "Computer Science",
+        "date": "2023-08-01T07:54:58.337Z",
+        "created_at": "2023-08-01T08:23:17.096Z",
+        "updated_at": "2023-07-31T15:00:04.366Z",
+        "student_id": "8ce2c9d5-3c50-4e32-934d-27357bc119bd"
+      }
+    ]
+  }
+]
